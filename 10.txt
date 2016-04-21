@@ -1,0 +1,29 @@
+#include<iostream.h>
+
+
+
+float brutto(float c,float procent)
+{
+return c=c+(c*procent/100);
+}
+
+main()
+{
+
+float netto;
+float proc;
+cout<<"Podaj cene Netto : ";
+cin>>netto;
+cout<<"Podaj procent : ";
+cin>>proc;
+cout<<endl;
+cout<<"Cena Brutto = "<<brutto(netto,proc);
+
+
+
+}
+
+
+
+
+

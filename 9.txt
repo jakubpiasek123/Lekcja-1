@@ -1,0 +1,27 @@
+#include<iostream.h>
+
+
+
+float brutto(float c)
+{
+return c=c+(c*0.22);
+}
+
+main()
+{
+
+float netto;
+cout<<"Podaj cene Netto : ";
+cin>>netto;
+cout<<endl;
+cout<<"Cena Brutto = "<<brutto(netto);
+
+
+
+
+}
+
+
+
+
+

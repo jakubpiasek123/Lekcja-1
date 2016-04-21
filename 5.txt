@@ -1,0 +1,49 @@
+#include<iostream.h>
+#include<stdlib.h>
+main()
+{
+randomize;
+
+const int kol=5;
+const int wie=5;
+const size=kol*wie;
+
+int tablica[kol][wie];
+
+int i,j;
+
+
+for (i=0;i<kol;i++)
+	 {
+	  for(j=0;j<wie;j++)
+		{
+		 tablica[i][j]=random(100);// wstawienie wartosci
+		}
+	 }
+
+
+
+for ( i=0;i<kol;i++)
+	 {
+	  for(j=0;j<wie;j++)
+		{
+		 cout<<tablica[i][j]<<"\t";//wyswietlenie tablicy dwuwymiarowej
+		}
+		cout<<endl;
+	 }
+#include<iostream.h>
+main()
+{
+
+int a;
+cout<<"Podaj Liczbe : ";
+cin>>a;
+
+if (a%2==0) {cout<<"Liczba jest Parzysta";}else
+	{cout<<"Liczba nie jest patrzysta.";}
+
+}
+
+
+
+
